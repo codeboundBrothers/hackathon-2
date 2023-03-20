@@ -88,7 +88,7 @@ video {
 
 /* Variables */
 :root {
-    --primary:  #374D7C;
+    --primary:  #376de0;
     --secondary: #46EDC8;
     --tertiary: #FDF289;
 }
@@ -136,7 +136,7 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 h3 {
     font-size: 1.25rem;
@@ -145,9 +145,9 @@ h3 {
 
 /* Texts */
 .text {
-    font-size: 1rem;
+    font-size: .925rem;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* Buttons */
@@ -158,4 +158,38 @@ h3 {
     font-weight: 500;
     padding: .5rem 2rem;
     border-radius: .25rem;
+}
+
+/* Header Styles */
+header {
+    padding: 1rem 0;
+}
+.brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+.search-bar {
+    padding: .5rem;
+    background-color: rgba(177, 255, 255, 0.692);
+    border-radius: 1rem;
+}
+.write-btn {
+    cursor: pointer;
+}
+
+/* Main Styles */
+.article-list {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.article {
+    margin: 2rem;
+}
+.article span {
+    font-size: .875rem;
+}
+.author {
+    color: var(--primary);
+    margin-right: 2rem;
 }
